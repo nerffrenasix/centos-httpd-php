@@ -1,4 +1,4 @@
-FROM centos-httpd
+FROM nerffrenasix/centos-httpd
 MAINTAINER nerffren
 
 RUN rpm -Uvh --replacepkgs https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
